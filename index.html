@@ -77,12 +77,17 @@
               ></i>
             </h1>
           </div>
-          <a class="btn bg-lime-400 rounded-3xl font-bold"
+          <div class="lg:hidden">
+            <i class="text-xl fa-solid fa-bars"></i>
+          </div>
+          <div class="hidden lg:inline">
+            <a class="btn bg-lime-400 rounded-3xl font-bold"
             >Book Consult
             <i
               class="bg-black -rotate-45 rounded-full p-2 text-center text-white fa-solid fa-arrow-right"
             ></i
           ></a>
+          </div>
         </div>
       </div>
       <!--navbar-end-->
@@ -92,8 +97,8 @@
         <br />
         <img class="mx-auto" src="./assets/banner.png " alt="" />
         <br />
-        <h1 class="text-black font-bold text-6xl text-center">
-          A barn house of this design has a <br />striking appearance
+        <h1 class= "text-center text-3xl font-bold lg:text-black lg:font-bold lg:text-6xl lg:text-center">
+          Innovative architecture, timeless design <br />Designing Spaces, Inspiring Lives.
         </h1>
         <br />
         <p class="text-center font-semibold text-gray-400">
@@ -118,21 +123,29 @@
       <br />
       <div class="hero bg-base-200 min-h-screen">
         <div class="hero-content flex-col lg:flex-row-reverse">
-          <img src="./assets/Rectangle.png" class="rounded-lg shadow-2xl" />
+          <img src="./assets/Rectangle.png" class="rounded-lg shadow-2xl " />
           <div>
-            <div class="lg:relative right-20 bottom-20">
-              <img src="./assets/Vector.png" alt="" />
+            <div class=" lg:relative lg:right-20 lg:bottom-">
+              <img class="" src="./assets/Vector.png" alt="" />
             </div>
-            <h1 class="lg:text-5xl lg:font-bold">
+            <br>
+            <div class="text-center lg:text-start">
+              <h1 class="font-semibold"><i class="fa-solid fa-arrow-right"></i> About Us</h1>
+            </div>
+            <br>
+            <h1 class="text-3xl font-bold text-center lg:text-5xl lg:text-start lg:font-bold">
               We design thoughtful, <br />liveable spaces
             </h1>
-            <p class="text lg:py-6">
+            <br>
+
+            <p class="text-center lg:py-6 lg:text-start">
               Design beauty is all about balance and symmetry. Components of
               design beauty include form, function, detail, and balance.ach of
               these factors plays an important role in creating a well-crafted
               design.
             </p>
-            <div class="w-full lg:h-36 w-[560px] bg-white p-6">
+            <br>
+            <div class="w-full lg:h-36 w-[560px] bg-white p-6 rounded-xl">
               <div class="flex">
                 <div>
                   <img class="p-3" src="./assets/commercial.png" alt="" />
@@ -149,7 +162,7 @@
             </div>
             <br />
 
-            <div class="w-full lg:h-36 w-[560px] bg-white p-6">
+            <div class="w-full lg:h-36 w-[560px] bg-white p-6 rounded-xl">
               <div class="flex">
                 <div>
                   <img class="p-3" src="./assets/residential.png" alt="" />
@@ -168,7 +181,6 @@
         </div>
       </div>
       <!--About Us end-->
-      
     </header>
     <main>
       <!--Work-process-start-->
@@ -178,7 +190,7 @@
         <h1 class="font-semibold text-center">
           <i class="fa-solid fa-arrow-right"></i> How we works
         </h1>
-        <h1 class="text-3xl text-bold text-center">Our Work Process</h1>
+        <h1 class="text-3xl font-bold text-center">Our Work Process</h1>
         <br />
         <p class="text-slate-500 text-center text-sm">
           Partially completed goods, which are typically turned from raw
@@ -193,149 +205,96 @@
           class="m-4 w-[335px] lg:w-[275px] h-[220px] bg-fuchsia-300 p-10 rounded-xl"
         >
           <img src="./assets/concept.png" alt="" />
-          <h1 class="text-bold text-lg my-2">Concept</h1>
+          <h1 class="font-bold text-lg my-2">Concept</h1>
           <p>Architecture is the art and technique of designing and building</p>
         </div>
         <div
           class="m-4 w-[335px] lg:w-[275px] h-[220px] bg-yellow-200 p-10 rounded-xl"
         >
           <img src="./assets/flow-chart.png" alt="" />
-          <h1 class="text-bold text-lg my-2">Design Process</h1>
+          <h1 class="font-bold text-lg my-2">Design Process</h1>
           <p>Architecture is the art and technique of designing and building</p>
         </div>
         <div
           class="m-4 w-[335px] lg:w-[275px] h-[220px] bg-emerald-200 p-10 rounded-xl"
         >
           <img src="./assets/vision.png" alt="" />
-          <h1 class="text-bold text-lg my-2">Supervision</h1>
+          <h1 class="font-bold text-lg my-2">Supervision</h1>
           <p>Architecture is the art and technique of designing and building</p>
         </div>
         <div
           class="m-4 w-[335px] lg:w-[275px] h-[220px] bg-indigo-400 p-10 rounded-xl"
         >
           <img src="./assets/budget-planning.png" alt="" />
-          <h1 class="text-bold text-lg my-2">Budget Planing</h1>
+          <h1 class="font-bold text-lg my-2">Budget Planing</h1>
           <p>Architecture is the art and technique of designing and building</p>
         </div>
       </div>
       <!--Work-process-end-->
       
       <!--portfolio-start-->
-      <div class="text-center">
-        <h1 class="font-semibold"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</h1>
-        <h1 class="font-bold text-3xl">Our Latest Portfolio</h1>
+      <div>
+        <h1 class="font-semibold text-center mt-[200px]"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</h1>
         <br>
-        <p>We're passionate about our work, and it shows. Check out our portfolio to see some of our <br>latest websites, sales assets, direct mail, and social campaigns.</p>
+        <h1 class="text-3xl font-bold text-center">Our Latest Portfolio</h1>
+      <p class="text-slate-500 text-center text-sm pt-5">
+        Our firm specializes in creating functional, aesthetically pleasing, <br>and sustainable spaces that reflect the unique needs and visions of our clients.
+      </p>
+      <br>
       </div>
-      <div class="grid grid-cols-1 p-2 lg:grid-cols-2 gap-6 lg:w-full">
+      <!--cards-->
+      <div class="lg:flex lg:flex-row lg:justify-center lg:items-center lg:gap-56">
+        <div class="ml-6 lg:flex lg:flex-row lg:justify-center lg:items-center lg:border lg:rounded-xl">
+          <div class="pr-6">
+            <img class=" lg:border lg:rounded-xl lg:p-2" src="./assets/img1.png" alt="">
+          </div>
+          <div class="lg:pr-5">
+            <h1 class="font-semibold text-xl mb-4">Commercial</h1>
+            <p>Commercial buildings are an important part of doing business, <br>both for those who own them and for those who rent them.</p>
+            <br>
+            <h1>  View Details <i class="bg-lime-400 -rotate-45 rounded-full p-2 text-center text-black fa-solid fa-arrow-right"></i></h1>
+          </div>
+        </div>
+  
         <div>
-          <div class="lg:flex border-2 rounded-xl">
-            <div>
-              <img class="border-2 border-dashed " src="./assets/img1.png" alt="" />
-            </div>
-            <div class="ml-2">
-              <br>
-              <h1 class="font-semibold text-xl mb-4">Commercial</h1>
-              <p>
-                Commercial buildings include office buildings, retail
-                space,<br />
-                warehouses and more.
-              </p>
-              <br>
-              <h1>  View Details <i class="bg-lime-400 -rotate-45 rounded-full p-2 text-center text-black fa-solid fa-arrow-right"></i></h1>
-            </div>
-          </div>
-        </div>
-        <div class="border-2 rounded-xl bord">
-          <img class="border-2 border-dashed h-full" src="./assets/img2.png" alt="">
+          <img class=" ml-6 mt-4 lg:border lg:rounded-xl lg:p-2" src="./assets/img2.png" alt="">
         </div>
       </div>
-      <div class="grid grid-cols-1 lg:grid-cols-3">
-        <img class="border-2 border-dashed h-full" src="./assets/img3.png" alt="">
-        <div class="f=grid grid-cols-3">
-          <div>
-            <div class="lg:flex">
-              <div>
-                <img class="border-2 border-dashed h-full w-80" src="./assets/img4.png" alt="" />
-              </div>
-              <div class="ml-2">
-                <br>
-                <h1 class="font-semibold text-xl mb-4">Commercial</h1>
-                <p>
-                  Commercial buildings include office buildings, retail
-                  space,<br />
-                  warehouses and more.
-                </p>
-                <br>
-                <h1>  View Details <i class="bg-lime-400 -rotate-45 rounded-full p-2 text-center text-black fa-solid fa-arrow-right"></i></h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img src="./assets/img5.png" alt="">
 
+      <div class="lg:flex lg:flex-row lg:justify-center lg:items-center mt-6">
+  <div>
+    <img class="ml-12 w-[300px] lg:w-[280px] lg:border-2 lg:rounded-xl p-2" src="./assets/img3.png" alt="">
+  </div>
+  <div>
+    <div class="ml-6 lg:flex lg:flex-row lg:justify-center lg:items-center lg:border-2 lg:rounded-xl lg:p-4 ">
+      <div class="lg:pr-6">
+        <img class="border rounded-xl lg:w-[280px]" src="./assets/img4.png" alt="">
       </div>
+      <div>
+        <h1 class="font-semibold text-xl mb-4">Commercial</h1>
+        <p>Commercial buildings are an important part of doing business, <br>both for those who own them and for those who rent them.</p>
+        <br>
+        <h1>  View Details <i class="bg-lime-400 -rotate-45 rounded-full p-2 text-center text-black fa-solid fa-arrow-right"></i></h1>
+      </div>
+    </div>
+  </div>
+  <div>
+    <img class="ml-8 w-[250px] lg:border lg:rounded-xl lg:p-2 lg:w-[280px]" src="./assets/img5.png" alt="">
+  </div>
+      </div>
+
 
       <!--portfolio-end-->
       <!--creative-section-start-->
-      <h1 class="text-3xl text-bold text-center mt-16" >Meet Our Amazing Team</h1>
-      <br>
-      <div class="grid justify-center items-center grid-cols-1 lg:grid-cols-3">
-        <div class="card bg-base-100 w-96 shadow-xl">
-          <figure class="px-10 pt-10">
-            <div class="avatar">
-              <div class="w-24 rounded-xl">
-                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-              </div>
-            </div>
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Anamo Servir</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card bg-base-100 w-96 shadow-xl">
-          <figure class="px-10 pt-10">
-            <div class="avatar">
-              <div class="w-24 rounded-xl">
-                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-              </div>
-            </div>
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card bg-base-100 w-96 shadow-xl">
-          <figure class="px-10 pt-10">
-            <div class="avatar">
-              <div class="w-24 rounded-xl">
-                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-              </div>
-            </div>
-          </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div class="card-actions">
-              <button class="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-      </div>
       <!--ceative-section-end-->
       <!--Lets-connect-start-->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <div
-        class="border-2 border-dashed border-gray-300 bg-center bg-cover h-[900px] bg-no-repeat"
+        class=" border-2 border-dashed border-gray-300 bg-center bg-cover h-[900px] bg-no-repeat"
         style="background-image: url(./assets/bg.jpg)"
       >
         <div>
@@ -373,6 +332,7 @@
         </div>
       </div>
       <!--Lets-connect-end-->
+
     </main>
     <footer>
       <div class="w-full h-[600px] lg:h-[480px] bg-gray-900 text-center">
